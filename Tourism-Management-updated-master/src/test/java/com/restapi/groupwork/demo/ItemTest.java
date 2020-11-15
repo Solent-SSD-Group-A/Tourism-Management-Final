@@ -4,9 +4,10 @@ import com.restapi.groupwork.demo.model.Item;
 import com.restapi.groupwork.demo.service.ItemServiceI;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
-
+@SpringBootTest
 public class ItemTest extends DemoApplicationTests {
 
     @Autowired

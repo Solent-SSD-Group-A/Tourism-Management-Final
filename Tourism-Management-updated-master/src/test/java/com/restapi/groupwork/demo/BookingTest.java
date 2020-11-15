@@ -5,12 +5,14 @@ import com.restapi.groupwork.demo.model.Customer;
 import com.restapi.groupwork.demo.service.BookingServiceI;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+@SpringBootTest
 public class BookingTest extends  DemoApplicationTests {
 
     @Autowired
