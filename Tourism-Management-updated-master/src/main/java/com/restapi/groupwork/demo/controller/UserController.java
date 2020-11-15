@@ -1,5 +1,6 @@
 package com.restapi.groupwork.demo.controller;
 
+import com.restapi.groupwork.demo.model.Item;
 import com.restapi.groupwork.demo.model.User;
 import com.restapi.groupwork.demo.service.UserService;
 import com.restapi.groupwork.demo.service.UserServiceI;
